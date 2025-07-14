@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # ✅ Gemini 1.5 model endpoint
-GEMINI_API_KEY = "AIzaSyCqkQOhb5XTr0K4LUtdAyolyXcNBT3l1uc"
-GEMINI_MODEL = "gemini-1.5-pro-latest"
+GEMINI_API_KEY = "AIzaSyA8GrTVth6h5wwcibe5hwvL1wzZj4QsKEE"
+GEMINI_MODEL = "gemini-1.5-flash"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 def get_job_roles(skills, experience, interests):
